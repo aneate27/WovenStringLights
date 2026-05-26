@@ -1,0 +1,27 @@
+I got various websites with various resources. I know, I know, I've got contacts in very high places. Google.com is AFRAID of me.
+
+Info about the lights:
+  Addressable Milky LED Strip 100 LEDS
+  https://www.adafruit.com/product/4917?gad_source=1&gad_campaignid=21079227318&gbraid=0AAAAADx9JvSAKkawuOVhOV3mBz8FYVgaZ&gclid=CjwKCAjw5s_QBhAdEiwADD_gBpUbOYxXPbIDlunJYCd_YmGERsRwQRKnXl5-pZcHz5GkZ_KXKox4xRoCa-YQAvD_BwE
+
+  Key points:
+    - Can use NeoPixel library, but these don't use shift registers like most so you can't string multiple strings together. This is because each LED is pre-addressed from 0-100
+    - Needs a 5V power supply
+    - Red is power, black is ground, green is data
+    - One pixel every 100mm (~4in), total strip is 10,000mm (~32.8ft) long
+
+  Datasheet (largely unhelpful):
+  https://cdn-shop.adafruit.com/product-files/4917/P005100CA3SD4-C15361-002.pdf
+
+  Additional Info About NeoPixels:
+  Electronics:
+    https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices
+  Code:
+    https://github.com/adafruit/Adafruit_NeoPixel/tree/master
+  Cool Code Bites:
+    https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
+
+Gemini Chat (idk if this link is publicly accessible):
+  https://gemini.google.com/u/2/app/ac6c21e1dd23b24e?pageId=none
+  I primarily used Gemini to orient myself with the electronic components. I did not follow its advice before finding other sources to confirm what I should be doing (because electricity is terrifying), and it was most helpful in identifying the names of things & reacquainting me with C++ conventions.
+  I'm not sure if I would recommend Gemini over other AIs as it doesn't really seem to be the best at anything, but I also think that its limitations have encouraged me to consult outside sources which is honestly more valuable than what other AI could give me. I only really use Gemini because it's free with my school's Google organization plan.
